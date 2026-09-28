@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+**/.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# JavaScript dependencies
+node_modules/
+**/node_modules/
+
+# Large local artifacts
+robot_arm_yolo/dataset_yolo_colab.zip
+
+# Temporary Office files
+~$*
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

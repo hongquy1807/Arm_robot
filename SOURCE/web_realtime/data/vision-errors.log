@@ -1,0 +1,10 @@
+2026-09-28 15:12:52,447 ERROR YOLO unavailable: MISSING_DEPENDENCIES
+Traceback (most recent call last):
+  File "E:\project\DoAnTotNghiep\SOURCE\web_realtime\simulation_app.py", line 80, in real_detection
+    result = vision_service.predict(image_file.read(), source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\project\DoAnTotNghiep\SOURCE\web_realtime\simulation\real_vision.py", line 144, in predict
+    self.warmup()
+  File "E:\project\DoAnTotNghiep\SOURCE\web_realtime\simulation\real_vision.py", line 92, in warmup
+    raise error
+simulation.real_vision.VisionUnavailable: Python đang chạy thiếu: Pillow. Dừng web và mở SOURCE/web_realtime/start.bat để dùng đúng .venv.
